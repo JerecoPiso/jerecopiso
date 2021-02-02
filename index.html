@@ -2,26 +2,31 @@
 <html>
 <head>
 	<title>JJ Online Portfolio</title>
-	  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body data-spy="scroll" data-target=".links" data-offset="50">
 <div class="div-container">
   <img src="assets/images/yes.jpg">
 
   <div class="topright">
- 
+   
   	<ul class="links">
-  		<li><a href="#"> <span class="fa fa-home"></span> Home</a></li>
-  		<li><a href="#skills"> <span class="fa fa-id-badge"></span> Skills</a></li>
-  		<li><a href="#projects">  <span class="fa fa-folder"></span> Projects</a></li>
-        <li><a href="#projects">  <span class="fa fa-file"></span> Resume</a></li>
+        <span id="close">&times;</span>
+  		<li><a href="#"> <span class="fontawesome-size fa fa-home"></span> Home</a></li>
+  		<li><a href="#skills"> <span class="fontawesome-size fa fa-id-badge ml10"></span> Skills</a></li>
+  		<li><a href="#projects">  <span class="fontawesome-size fa fa-folder ml3"></span> Projects</a></li>
+      <li><a href="resume.pdf">  <span class="fontawesome-size fa fa-file ml10"></span> Resume</a></li>
+    
+
   	</ul>
+    <button id="bars"><span class="fa fa-bars"></span></button>
   </div>
     <div class="center slogan">
-   	 You discuss, I will Create 
+   	 You discuss, I Create 
    </div>
 </div>
 <div class="skills-projects">
@@ -30,7 +35,7 @@
   <div class="row pl-4 pr-4 pb-4">
     <div class="col-lg-3 ">
        <div class="card card-min-height mt-2"  >
-              <img src="assets/images/yes.jpg" class="card-img-top" alt="..." style="height: 100px;">
+              <img src="assets/images/front-end.jpg" class="card-img-top" alt="..." style="height: 100px;">
               <div class="card-body text-center">
                   <h5 class="card-title">Front-End</h5>
                   <p class="card-text">HTML, Javascript, CSS, Bootstrap 4, Materialize CSS, VueJS</p>
@@ -50,7 +55,7 @@
     </div>
      <div class="col-lg-3">
       <div class="card card-min-height  mt-2" style="">
-              <img src="assets/images/yes.jpg" class="card-img-top" alt="..." style="height: 100px;">
+              <img src="assets/images/dektop.png" class="card-img-top" alt="..." style="height: 100px;">
                <div class="card-body text-center">
                  <h5 class="card-title">Desktop Application</h5>
                   <p class="card-text">Java, C# and VB.Net</p>
@@ -60,7 +65,7 @@
     </div>
      <div class="col-lg-3 ">
       <div class="card card-min-height mt-2" >
-              <img src="assets/images/yes.jpg" class="card-img-top" alt="..." style="height: 100px;">
+              <img src="assets/images/database.jpg" class="card-img-top" alt="..." style="height: 100px;">
               <div class="card-body text-center">
                  <h5 class="card-title bold">Databases</h5>
                   <p class="card-text">MySQL, MongoDB, PostgreSql and MS Access Database</p>
@@ -73,40 +78,7 @@
    
 
 
-<div class="MyModal">
-  <div class="ModalDialog">
-    <div class="ModalHeader">
-      <p class="more-on">More on my project</p>
-      <button class="close text-white mr-2 mt-3">&times;</button>
-    </div>
-    <div class="ModalBody ">
-        <div class="my-carousel" style="">
-           <div class="carousel-images">
-              <div class="active">
-                  <img src="assets/images/node_chatapp_login.png">
-              </div>
-               <div class="">
-                  <img src="assets/images/yes.jpg">
-              </div>
-               <div class="">
-                  <img src="assets/images/haha.jpg">
-              </div>
-                <div class="">
-                  <img src="assets/images/my_logo.png">
-              </div>
-              <h3 class="text-center">Loaning System</h3>
-           </div>
-           <div class="carousel-controls">
-               <button class="previous">Back</button>
-               <button class="next">Next</button>
-              <!--   <button class="show">Show Photo</button> -->
-           </div>
-        </div>
-    </div>
-  </div>
-</div> 
-
-
+  
 <div  id="projects">
      <h1 class="experience text-center bold">PROJECTS</h1>
     <div class="row">
@@ -118,7 +90,7 @@
           <div class="text-center text-white"> <b class="bg-black">Real Time Chat Application (NodeJS)</b> <br>
             <button class="view-code view3">View Code</button>
           </div>
-           <button class="read-more">Read more...</button>
+           <button class="read-more" onclick="chatapp()">Read more...</button>
 
         </div>
 
@@ -157,6 +129,46 @@
   </div>
  
 </div>
+<div class="MyModal">
+  <div class="ModalDialog">
+    <div class="ModalHeader">
+      <p class="more-on">Loaning System</p>
+      <button class="close text-white mr-2 mt-2">&times;</button>
+    </div>
+    <div class="ModalBody">
+        <div class="my-carousel" style="">
+           <div class="carousel-images">
+              <div class="active">
+                  <img src="assets/images/node_chatapp_login.png">
+              </div>
+               <div class="">
+                  <img src="assets/images/yes.jpg">
+              </div>
+               <div class="">
+                  <img src="assets/images/haha.jpg">
+              </div>
+                <div class="">
+                  <img src="assets/images/my_logo.png">
+              </div>
+             <!--  <h3 class="text-center">Loaning System</h3> -->
+           </div>
+           <div id="system-info">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           </div>
+           <div class="carousel-controls">
+               <button class="previous">Back</button>
+               <button class="next">Next</button>
+              <!--   <button class="show">Show Photo</button> -->
+           </div>
+        </div>
+    </div>
+  </div>
+</div> 
 
 
 <footer id="footer" style="background-color: #669999">
@@ -169,16 +181,16 @@
         <div class="col-lg-6">
             <h5 class="footer-desc" style="">Contact Me</h5>
             <ul class="footer-links">
-              <li><a  href="#!"> <span class="fa fa-apple"></span> Facebook : Jereco Anover Piso</a></li>
-              <li><a  href="#!">Twitter :  @JamesPiso</a></li>
-              <li><a  href="#!">Github</a></li>
-              <li><a  href="#!"> <span class="fa fa-envelope"></span> E-mail: jerecojamespiso@gmail.com</a></li>
+              <li><a  href="#!"><i class="fa fa-facebook-square" style="font-size:20px"></i> Jereco Anover Piso</a></li>
+              <li><a  href="#!"><i class="fa fa-twitter-square" style="font-size:20px"></i> @JamesPiso</a></li>
+              <li><a  href="#!"><i class="fa fa-github-square" style="font-size:20px"></i> Github</a></li>
+              <li><a  href="#!"> <i class="fa fa-envelope" style="font-size:17px"></i> jerecojamespiso@gmail.com</a></li>
             </ul>
         </div>
       </div>
     </div>
     <div class="">
-      <div class="text-white text-center" style="border: 1px solid  #99ccff">
+      <div class="text-white text-center p-3" style="border: 1px solid  #99ccff;">
           © 2020 Copyright
       </div>
     </div>

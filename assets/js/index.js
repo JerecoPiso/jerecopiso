@@ -1,4 +1,13 @@
 $(document).ready(function(){
+  $('#bars').click(function(){
+    $('.links').slideDown();
+    $('#bars').fadeOut()
+  })
+   $('#close').click(function(){
+    $('.links').slideUp();
+
+    $('#bars').fadeIn()
+  })
     $(this).scroll(function(){
       
       $('#skills').slideDown(1500);
@@ -69,16 +78,21 @@ $(document).ready(function(){
 
     
       $('.read-more').click(function(){
-        $(".MyModal").fadeIn(); 
+        $(".MyModal").slideDown();
+
+        $('.skills-projects, .div-container, #footer').css({'opacity': '0.5'})
+
       })
       $('.close').click(function(){
         
         set_ctr = 1;
         $(".carousel-images div").removeClass("active")
         $(".carousel-images div").first().addClass("active").show()
-        $(".MyModal").fadeOut();
+        $(".MyModal").slideUp();
         ctr_two = 0;
+         $('.skills-projects, .div-container, #footer').css({'opacity': '1'})
       })
 
  $('.view-code').tooltip();
+
 }); 
