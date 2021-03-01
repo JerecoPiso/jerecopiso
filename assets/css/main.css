@@ -237,10 +237,10 @@
 	}
 */
 }
-.MyModal, .MyModalChatApp{
+.MyModalLoaning, .MyModalChatApp{
 	width: 80%;
 	height: auto;
-	max-height: 700px;
+	max-height: 600px;
 	overflow: auto;
 	position: fixed;
 	background-color: rgb(217, 217, 217);
@@ -255,7 +255,11 @@
 
 .ModalHeader{
 	height: 50px;
+	z-index: 1;
+	/*position: fixed;
+	width: 79.5%;*/
 	background-color:  #669999;
+	
 }
 .more-on{
 	float: left;
@@ -319,7 +323,7 @@
 	display: none;
 }
 .carousel-images div img{
-	height: 250px;
+	height: 350px;
 	width: 100%
 }
 .div-container {
@@ -451,5 +455,8 @@ img {
 
 }
 #system-info::-webkit-scrollbar{
+	display: none;
+}
+.MyModalLoaning::-webkit-scrollbar, .MyModalChatApp::-webkit-scrollbar{
 	display: none;
 }
