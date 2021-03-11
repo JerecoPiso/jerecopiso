@@ -24,7 +24,7 @@
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		background-color: #669999;
+		background-color: rgb(255, 0, 102);
 		overflow: hidden;
 	}
 	.links li{
@@ -44,7 +44,7 @@
 		font-family: sans-serif;
 	}
 	.links li:hover{
-		background-color: rgba(255,255,255,0.2);
+		background-color: rgba(255,255,255,0.5);
 		text-decoration: none;
 		color: rgb(255,255,255);
 	}
@@ -58,21 +58,13 @@
 	.fontawesome-size{
 		font-size: 30px;
 	}
-	.slogan{
-		color: rgb(255,255,255);
-	    /*background-color: rgba(0,0,0,0.3);*/
-	    width: auto;
-	    font-size: 100%;
-	    margin-top: 20%;
-	    padding: 1%;
-	    font-family: sans-serif;
-	   
-	}
+	
 	.topright {
 		width: 100%;
 	    position: absolute;
 	    top: 1px;
 	    right: 1px;
+	    z-index: 1;
 	    font-size: 18px;
 	}
 }
@@ -109,16 +101,7 @@
 		color: rgb(255,255,255);
 	}
 
-	.slogan{
-		color: rgb(255,255,255);
-	    /*background-color: rgba(0,0,0,0.3);*/
-	    width: auto;
-	    font-size: 200%;
-	    margin-top: 20%;
-	    padding: 1%;
-	    font-family: sans-serif;
-	   
-	}
+	
 	.topright {
 		
 	    position: absolute;
@@ -161,16 +144,7 @@
 		color: rgb(255,255,255);
 	}
 
-	.slogan{
-		color: rgb(255,255,255);
-	    /*background-color: rgba(0,0,0,0.3);*/
-	    width: auto;
-	    font-size: 200%;
-	    margin-top: 20%;
-	    padding: 1%;
-	    font-family: sans-serif;
-	   
-	}
+	
 	.topright {
 		
 	    position: absolute;
@@ -215,16 +189,7 @@
 		color: rgb(255,255,255);
 	}
 
-	.slogan{
-		color: rgb(255,255,255);
-	    /*background-color: rgba(0,0,0,0.3);*/
-	    width: auto;
-	    font-size: 200%;
-	    margin-top: 20%;
-	    padding: 1%;
-	    font-family: sans-serif;
-	   
-	}
+
 	.topright {
 		
 	    position: absolute;
@@ -237,41 +202,7 @@
 	}
 */
 }
-.MyModalLoaning, .MyModalChatApp{
-	width: 80%;
-	height: auto;
-	max-height: 600px;
-	overflow: auto;
-	position: fixed;
-	background-color: rgb(217, 217, 217);
-	top: 5%;
-	left: 12%;
-	z-index: 1;
-	border: 4px solid #669999;
-	display: none;
 
-
-}
-
-.ModalHeader{
-	height: 50px;
-	z-index: 1;
-	/*position: fixed;
-	width: 79.5%;*/
-	background-color:  #669999;
-	
-}
-.more-on{
-	float: left;
-	font-size: 150%;
-	color: rgb(255,255,255);
-	margin-left: 2%;
-	margin-top: 0.3%;
-}
-.my-carousel{
-	position: relative;
-	padding: 2%;
-}
 .bg-black{
 	background-color: rgba(0,0,0,0.5);
 	border-radius: 2rem;
@@ -279,33 +210,7 @@
 	font-weight: normal;
 
 }
-.next{
-	position: absolute;
-	top: 150px; 
-    right: 3%;
-    background-color: rgba(0,0,0,0.5);
-    border: none;
-    color: white;
-    font-weight: bold;
-    border-radius: 0.5rem;
-}
-.previous{
-	background-color: rgba(0,0,0,0.5);
-    border: none;
-    color: white;
-    font-weight: bold;
-    position: absolute;
-	top: 150px; 
-	left: 3%;
-	border-radius: 0.5rem;
 
-}
-.previous:hover, .next:hover{
-	background-color:  #669999;
-	color: rgb(255,255,255);
-	border-radius: 1rem;
-	transition: 1s;
-}
 .show{
 	 background-color: rgba(0,0,0,0.4);
 	 width: 20%;
@@ -316,16 +221,7 @@
 	top: 80%; 
 	left: 40%;
 }
-.carousel-images .active{
-	display: block;
-}
-.carousel-images div{
-	display: none;
-}
-.carousel-images div img{
-	height: 350px;
-	width: 100%
-}
+
 .div-container {
     position: relative;
 
@@ -347,12 +243,14 @@ img {
     
 }
 
-.skills-projects{
+.skills{
 	height: auto;
 	right: 0;
-	margin: 0;
+	/*background-color: rgb(242, 242, 242);*/
+	/*background-color: rgb(255, 0, 102);*/
+	margin: 2% 0 0 0 ;
 	padding: 0% 8% 5% 8%;
-	background: linear-gradient(#0000, #99ccff);
+	/*background: linear-gradient(, #99ccff);*/
 
 /*	#99ccff*/
 }
@@ -363,13 +261,13 @@ img {
 	 transition: 2s;
 }
 .experience{
-	font-weight: bold;
+	
 	font-size: 200%;
 	font-family: sans-serif;
 	/*background-color: rgb(92, 138, 138);*/
 /*	color: rgb(255,255,255);*/
 	/*width: 35%;*/
-	color: rgb(0, 128, 128);
+	color: rgba(0, 0, 0, 0.5);
 	border-radius: 2rem;
 	padding: 1% 0 1% 0;
 /*	margin-left: 1%;*/
@@ -378,85 +276,148 @@ img {
 	font-weight: bold;
 }
 .card-min-height{
-	min-height: 260px;
+	min-height: 320px;
 }
 
-.project-div{
-	 position: relative;
-}
-.project-div img{
-	width: 100%;
-    min-height: 200px;
-    max-height: 200px;
-   
-}
-.project-div div{
-	width: 100%;
-	position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
 
-}
-.view-code{
-	padding: 1.5% 0% 1.5% 0%;
-	border: none;
-	background-color: rgb(0, 179, 134);
-	color: rgb(255,255,255);
-	margin-top: 5%;
-	max-width: 150%;
-	min-width: 150px;
-	margin-left: 1%;
-	border-radius: 0.5rem;
-	display: none;
-/*	max-width: 120%;*/
-}
 .text-white{	
 	color: rgb(255,255,255);
 }
-.read-more{
-	width: 100%;
-	background-color: #669999;
-	padding: 2%;
-	border: none;
-	color: rgb(255,255,255);
+
+.me{
+	margin-left: 30%;
+	font-weight: bold;
+}
+.ml-10{
+	margin-left: 8%;
 }
 .footer-links{
 	list-style-type: none;
+	margin-top: 5%;
 }
 .footer-links li{
 	text-decoration: none;
 	padding: 1%;
+	margin-right: 7%;
+	float: left;
 
 }
 .footer-links li a{
 	color: rgb(255,255,255);
 }
-.footer-links li a:hover{
+/*.footer-links li a:hover{
 	text-decoration: none;
 	margin-left: 2%;
 	transition: 1s;
-}
+}*/
 .footer-desc{
 	margin-left: 8.2%;
 	margin-top: 4%;
 	color: rgb(255,255,255);
+	font-size: 17px;
 }
-#system-info{
-	padding: 2% 1% 2% 1%;
-	font-size: 120%;
-	min-height: 200px;
-	max-height: 300px;
-	overflow: auto;
-	background-color: rgb(230, 230, 230);
-	border: 1px solid #669999;
-	margin-top: 0.3%;
+
+
+.max-height{
+	max-height: 400px;
+}
+.controls{
+	background-color:  rgba(0,0,0,0.4);
+	padding: 1px 10px 2px 10px;
+	border-radius: 1rem;
+}
+.functionalities, .technologies-used{
+	font-weight: bold;
+	margin-top: 10px;
+}
+.skills-cat{
+	padding: 7px;
+	font-size: 25px;
+	/*margin-top: -15%;*/
+	
+}
+.skill-cat-logo{
+	height: 100px;
+}
+
+.skill-logo{
+	height: 50px;
+}
+.main-ui{
+	height: 100%;position: absolute;width: 100%;
+}
+body{
+	background-color: rgb(242, 242, 242);
+}
+#profile{
+	margin-top: -500px;margin-right: 10%;margin-left: 10%;
 
 }
-#system-info::-webkit-scrollbar{
-	display: none;
+#profile img{
+	display: block;
+	margin-right: 10%;
+	height: 350px;
+	width: 80%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	float: right;
+
 }
-.MyModalLoaning::-webkit-scrollbar, .MyModalChatApp::-webkit-scrollbar{
-	display: none;
+.bg-white{
+	background-color: rgb(255,255,255);
+}
+.name{
+	font-size: 30px;margin-bottom: -0.7%;
+	margin-top: 9%;
+}
+.my-skill{
+	font-weight: bold;border-bottom: 1px solid black;padding-bottom: 1%
+}
+.slogan{
+	background-color: rgb(255, 0, 102);
+	padding: 1%;
+	text-align: center;
+	color: rgb(255,255,255);
+	font-size: 30px;
+}
+.about{
+	font-style: sans-serif;
+	font-size: 18px;
+}
+.projects-portion{
+	background-color: rgb(255,255,255);padding: 3% 0 0 0
+}
+.portfolio{
+	border-top: 1px solid rgba(0,0,0,0.3);
+	padding: 2%;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.gif{
+	height: 300px;width: 90%;display: block;margin:auto;
+	margin-top: 3%;
+}
+.portfolio-fs{
+	font-size: 20px;
+}
+.view-code{
+	border: none;
+	margin-left: 1%;
+	width: 130px;
+	padding: 1.2%;
+	color: rgb(255,255,255);
+	font-size: 18px;
+	border-radius: 0.5rem;
+	margin-top: 1%;
+	background-color: #1DA1F2
+}
+.visit-site{
+	border: none;
+	margin-left: 5%;
+	width: 100px;
+	padding: 1.2%;
+	color: rgb(255,255,255);
+	font-size: 18px;
+	border-radius: 0.5rem;
+	margin-top: 1%;
+	background-color: rgb(255, 0, 102)
 }
