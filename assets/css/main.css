@@ -385,12 +385,14 @@ body{
 	font-size: 18px;
 }
 .projects-portion{
-	background-color: rgb(255,255,255);padding: 3% 0 0 0
+	background-color: rgb(255,255,255);
+	padding: 3% 0 0 0;
+	margin: 0
 }
 .portfolio{
 	border-top: 1px solid rgba(0,0,0,0.3);
 	padding: 2%;
-	border-bottom: 1px solid rgba(0,0,0,0.3);
+	/**/
 }
 .gif{
 	height: 300px;width: 90%;display: block;margin:auto;
@@ -402,7 +404,7 @@ body{
 .view-code{
 	border: none;
 	margin-left: 1%;
-	width: 130px;
+	width: 70px;
 	padding: 1.2%;
 	color: rgb(255,255,255);
 	font-size: 18px;
@@ -413,7 +415,7 @@ body{
 .visit-site{
 	border: none;
 	margin-left: 5%;
-	width: 100px;
+	width: 70px;
 	padding: 1.2%;
 	color: rgb(255,255,255);
 	font-size: 18px;

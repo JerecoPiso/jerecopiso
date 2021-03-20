@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body data-spy="scroll" data-target=".links" data-offset="50" style="background-color: rgb(242, 242, 242);">
+<body data-spy="scroll" data-target=".links" data-offset="50" style="background-color: rgb(242, 242, 250);">
 <!-- upper part of the main page -->
 <div class="div-container">
       <div class="main-ui">
@@ -52,7 +52,7 @@
   </div>
 
 <!-- class div-container end -->
-<div class="skills" style="">
+<div class="skills">
   <div id="skills">
      <h2 class="experience text-center">Skills</h2>
      <div class="row pb-4">
@@ -137,13 +137,13 @@
  </div> <!-- class skills end -->
 
   
-<div  id="projects" class="projects-portion">
+<div  id="projects" class="projects-portion" >
      <h2 class="experience text-center">Portfolio</h2>
      <div class="row portfolio" style="">
        <div class="col-lg-6">
          <img src="assets/images/codes2.jpg" class="gif" style="">
-         <button class="visit-site"> <span class="fa fa-search"></span> Visit</button>
-         <button class="view-code"> <span class="fa fa-eye"></span> View Code</button>
+          <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button>
+         <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
         
        </div>
        <div class="col-lg-6 pl-4 pt-3">
@@ -168,11 +168,11 @@
              </ul>
        </div>
      </div>
-       <div class="row portfolio">
+       <div class="row portfolio" >
        <div class="col-lg-6">
          <img src="assets/images/codes2.jpg" class="gif">
-         <button class="visit-site"> <span class="fa fa-search"></span> Visit</button>
-         <button class="view-code"> <span class="fa fa-eye"></span> View Code</button>
+         <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button>
+         <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
        </div>
        <div class="col-lg-6 pl-4 pt-3">
          <p>  <b class="portfolio-fs">Real Time Chat Application</b> is an web app that allows you to communicate or interact <b>real-time</b> with other user/s.
@@ -211,5 +211,12 @@
 <script type="text/javascript" src="assets/js/jquery.js"></script>   
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/index.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+
+</script>
 </body>
 </html>
