@@ -92,44 +92,6 @@
 
 	}
 	.links{
-		
-		width: 100%;
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		background-color: rgb(255, 0, 102);
-		overflow: hidden;
-	}
-	.links li{
-		
-		width: 100%;
-
-		padding: 10px 5px;
-	}
-	.links li a{
-		
-		color: white;
-		text-align: center;
-		padding: 12px 12px 12px 12px;
-		text-decoration: none;
-		font-size: 110%;
-		letter-spacing: 2px;
-		font-family: sans-serif;
-	}
-	.links li:hover{
-		background-color: rgba(255,255,255,0.5);
-		text-decoration: none;
-		color: rgb(255,255,255);
-	}
-	
-	.topright {
-		
-	    position: absolute;
-	    top: 8px;
-	    right: 16px;
-	    font-size: 18px;
-	}
-
 	.links{
 		display: none;
 		width: 100%;
