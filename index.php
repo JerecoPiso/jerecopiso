@@ -145,7 +145,7 @@
      
              
        </div>
-       <div class="col-lg-6 pl-4 pt-3">
+       <div class="col-lg-6 project-desc">
          <p>  <b class="portfolio-fs">Voting Poll</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.
           </p>
            <p class="functionalities">Features</p>
@@ -173,7 +173,7 @@
        <!--   <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button> -->
          <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
        </div>
-       <div class="col-lg-6 pl-4 pt-3">
+       <div class="col-lg-6 pl-4 project-desc">
          <p>  <b class="portfolio-fs">Online Examination System</b> is conducting a test online to measure the knowledge of the participants on a given topic. With online examination students can do the exam online, in their own time, with their own device, regardless of where they live. You only need a browser and an internet connection. 
           </p>
            <p class="functionalities">Features</p>
