@@ -73,10 +73,23 @@
 }
 @media(min-width: 568px) and (max-width: 991px){
 	#bars{
-		display: none;
+		display: block;
+		border: none;
+		font-size: 180%;
+		background-color: transparent;
+		color: rgb(255,255,255);
+		float: right;
+		margin-right: 5px;
 	}
 	#close{
-		display: none;
+		display: block;
+		float: right;
+		background-color: transparent;
+		color: rgb(255,255,255);
+		font-size: 200%;
+		margin-right: 2.7%;
+		cursor: pointer;
+
 	}
 	.links{
 		
