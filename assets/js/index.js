@@ -4,8 +4,8 @@ $(document).ready(function(){
   // "+$(window).height()+"px"
 
   $('#bars').click(function(){
-    $('.links').slideDown();
-    $('#bars').fadeOut()
+    $('.links').fadeIn();
+    $('#bars').hide()
   })
   $('#close').click(function(){
     $('.links').slideUp();
@@ -18,14 +18,14 @@ $(document).ready(function(){
   });
 
    $("#skills-href").click(function(){
-    $("#skills").show()
+    $(".skills").show()
      $('html, body').animate({
-        scrollTop: $("#skills").offset().top
+        scrollTop: $(".skills").offset().top
     }, 1000);
       
   });
     $("#projects-href").click(function(){
-        $("#skills").show()
+        $(".skills").show()
         $('#projects').show();
           $('html, body').animate({
         scrollTop: $("#projects").offset().top
@@ -45,13 +45,13 @@ $(document).ready(function(){
       $('.view'+view).hide();
   });
 
-  $('.view-code').click(function(){
-    window.location.href=$(this).data("href")
-  })
+  // $('button').click(function(){
+  //   window.location.href=$(this).data("href")
+  // })
  
 
  // $('.view-code').tooltip();
-$(window).resize(function(){
-   location.reload();
-});
+  $(window).resize(function(){
+     location.reload();
+  });
 }); 

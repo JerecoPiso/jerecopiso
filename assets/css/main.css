@@ -1,5 +1,93 @@
 
-@media(min-width: 568px) and (max-width: 991px){
+@media(min-width: 360px) and (max-width: 768px){
+
+	.project-desc{
+		margin-left: 50px;
+	}
+	#bars{
+		display: block;
+		border: none;
+		font-size: 100px;
+		background-color: transparent;
+		color: rgb(255,255,255);
+		float: right;
+		margin-right: 20px;
+	}
+	#close{
+		display: block;
+		float: right;
+		background-color: transparent;
+		color: rgb(255,255,255);
+		font-size: 80px;
+		margin-right: 2.7%;
+		cursor: pointer;
+
+	}
+	.links{
+		display: none;
+		width: 100%;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: rgb(255, 0, 102);
+		overflow: hidden;
+	}
+	.links li{
+		
+		width: 100%;
+
+		padding: 10px 5px;
+	}
+	.links li a{
+		
+		color: white;
+		text-align: center;
+		padding: 12px 12px 12px 12px;
+		text-decoration: none;
+		font-size: 60px;
+		letter-spacing: 2px;
+		font-family: sans-serif;
+	}
+	.links li:hover{
+		background-color: rgba(255,255,255,0.5);
+		text-decoration: none;
+		color: rgb(255,255,255);
+	}
+	/*.links li a span{
+		display: none;
+	}*/
+	.ml10{
+		margin-right: 14px;
+	}
+	.ml3{
+		margin-right: 3px;
+	}
+
+	.fontawesome-size{
+		font-size: 30px;
+	}
+	
+	.topright {
+		width: 100%;
+	    position: absolute;
+	    top: 1px;
+	    right: 1px;
+	    z-index: 1;
+	    font-size: 18px;
+	}
+	#profile{
+		/*margin-top: -90%*/
+		/*margin-top: 250px;*/
+		border: 1px solid red;
+		margin-right: 10%;
+		margin-left: 10%;
+		/*position: absolute;*/
+	}
+	
+
+}	
+@media(min-width: 768px) and (max-width: 991px){
+
 	.project-desc{
 		margin-left: 50px;
 	}
@@ -53,7 +141,8 @@
 		color: rgb(255,255,255);
 	}
 	.links li a span{
-		display: none;
+		font-size: 90px;
+
 	}
 	.ml10{
 		margin-right: 14px;
@@ -76,12 +165,27 @@
 	}
 	#profile{
 		/*margin-top: -90%*/
-		margin-top: -1500px;
+		margin-top: -150%;
+		
 		margin-right: 10%;
 		margin-left: 10%;
-
+		/*position: absolute;*/
 	}
+	
 }	
+
+@media(max-height: 640px){
+	#profile{
+		/*margin-top: -90%*/
+		margin-top: -30%;
+		
+		margin-right: 10%;
+		margin-left: 10%;
+		/*position: absolute;*/
+	}
+}
+
+
 @media(min-width: 992px) and (max-width: 1999px){
 	#bars{
 		display: none;
@@ -127,16 +231,31 @@
 		display: none;
 	}
 	#profile{
-		/*margin-top: -00px;*/
+		
+	/*	position: absolute;*/
+		margin-top: -470px;
 		margin-right: 10%;
 		margin-left: 10%;
 
 	}
 	.portfolio{
+			border-top: 1px solid rgba(0,0,0,0.3);
+	}
+	/*#skills{
+		margin-top: 100px;
+	}*/
+}
+@media(min-width: 1200px){
+	#profile{
+		
+	/*	position: absolute;*/
+		margin-top: -470px;
+		margin-right: 10%;
+		margin-left: 10%;
 
 	}
 }
-@media(min-width: 1200px){
+@media(min-width: 1400px){
 	#bars{
 		display: none;
 	}
@@ -177,21 +296,20 @@
 	    right: 16px;
 	    font-size: 18px;
 	}
-		#profile{
-		margin-top: -500px;
+	#profile{
+		margin-top: -1200px;
 		margin-right: 10%;
+		/*position: absolute;*/
 		margin-left: 10%;
 
 	}
 	.portfolio{
-/*	border-top: 1px solid rgba(0,0,0,0.3);*/
-	padding: 2%;
-	/**/
+		border-top: 1px solid rgba(0,0,0,0.3);
+		padding: 2%;
 	}
-	/*#projects, #skills{
-		display: none;
-	}
-*/
+	/*#skills{
+		margin-top: -50%;
+	}*/
 }
 
 .bg-black{
@@ -235,11 +353,11 @@ img {
 }
 
 .skills{
-	height: auto;
+	/*height: auto;*/
 	right: 0;
 	/*background-color: rgb(242, 242, 242);*/
 	/*background-color: rgb(255, 0, 102);*/
-	margin: 2% 0 0 0 ;
+	/*margin: 2% 0 0 0 ;*/
 	padding: 0% 8% 5% 8%;
 	/*background: linear-gradient(, #99ccff);*/
 
@@ -335,7 +453,9 @@ img {
 	height: 50px;
 }
 .main-ui{
-	height: 100%;position: absolute;width: 100%;
+	height: auto;
+	position: absolute;
+	width: 100%;
 }
 body{
 	background-color: rgb(242, 242, 242);
@@ -395,7 +515,8 @@ body{
 	font-size: 18px;
 	border-radius: 0.5rem;
 	margin-top: 1%;
-	background-color: #1DA1F2
+	/*background-color: #1DA1F2*/
+	background-color: rgb(255, 0, 102)
 }
 .visit-site{
 	border: none;
@@ -407,4 +528,7 @@ body{
 	border-radius: 0.5rem;
 	margin-top: 1%;
 	background-color: rgb(255, 0, 102)
+}
+#skills{
+	margin-top: 30px;
 }
