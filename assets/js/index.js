@@ -16,7 +16,21 @@ $(document).ready(function(){
     $('#skills').slideDown(1500);
     $('#projects').fadeIn(4000);
   });
-  
+
+   $("#skills-href").click(function(){
+    $("#skills").show()
+     $('html, body').animate({
+        scrollTop: $("#skills").offset().top
+    }, 1000);
+      
+  });
+    $("#projects-href").click(function(){
+        $("#skills").show()
+        $('#projects').show();
+          $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 1000);
+  });
 
   $(".project-div").mouseenter(function(){
       var view = $(this).attr("id");
@@ -31,7 +45,9 @@ $(document).ready(function(){
       $('.view'+view).hide();
   });
 
-
+  $('button').click(function(){
+    window.location.href=$(this).data("href")
+  })
  
 
  // $('.view-code').tooltip();

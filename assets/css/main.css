@@ -397,13 +397,14 @@ body{
 .gif{
 	height: 300px;width: 90%;display: block;margin:auto;
 	margin-top: 3%;
+	border: 2px solid rgb(224, 224, 209);
 }
 .portfolio-fs{
 	font-size: 20px;
 }
 .view-code{
 	border: none;
-	margin-left: 1%;
+	margin-left: 5%;
 	width: 70px;
 	padding: 1.2%;
 	color: rgb(255,255,255);

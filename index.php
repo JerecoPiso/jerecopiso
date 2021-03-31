@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
-<body data-spy="scroll" data-target=".links" data-offset="50" style="background-color: rgb(242, 242, 250);">
+<!-- data-spy="scroll" data-target=".links" data-offset="50"  -->
+<body style="background-color: rgb(242, 242, 250);">
 <!-- upper part of the main page -->
 <div class="div-container">
       <div class="main-ui">
@@ -17,8 +17,8 @@
           <ul class="links">
             <span id="close">&times;</span>
             <li><a href="#"> <span class="fontawesome-size fa fa-home"></span> Home</a></li>
-            <li><a href="#skills"> <span class="fontawesome-size fa fa-id-badge ml10"></span> Skills</a></li>
-            <li><a href="#projects">  <span class="fontawesome-size fa fa-folder ml3"></span> Projects</a></li>
+            <li><a href="javascript:void(0)" id="skills-href"> <span class="fontawesome-size fa fa-id-badge ml10"></span> Skills</a></li>
+            <li><a href="javascript:void(0)" id="projects-href">  <span class="fontawesome-size fa fa-folder ml3"></span> Projects</a></li>
             <li><a href="resume.pdf">  <span class="fontawesome-size fa fa-file ml10"></span> Resume</a></li>
           </ul>
           <button id="bars"><span class="fa fa-bars"></span></button>
@@ -37,7 +37,7 @@
       <div class="col-lg-5 col-md-6 col-sm-12 bg-white bbr">
         <p class="name" style="">I'm <b>Jereco James Piso</b></p>
         <p class="my-skill" style="">Freelance Web Developer</p>
-        <p class="about">I have 3 years experience in Web Development and I am passionate in learning other technologies to further hone my skills.</p>
+        <p class="about">I have 2 years experience in Web Development and I am passionate in learning other technologies to further hone my skills.</p>
         <p class="about">When I'm not doing programming, I like playing online games.</p>
 
          <ul class="footer-links">
@@ -124,9 +124,7 @@
                    <div class="col-lg-6 col-sm-4">
                      <img src="assets/images/sqlite.png" class="skill-logo">
                   </div>
-                   <div class="col-lg-6 col-sm-4">
-                     <img src="assets/images/postgresql.png" class="skill-logo">
-                  </div>
+                 
                 
                 </div>            
               </div>
@@ -141,55 +139,54 @@
      <h2 class="experience text-center">Portfolio</h2>
      <div class="row portfolio" style="">
        <div class="col-lg-6">
-         <img src="assets/images/codes2.jpg" class="gif" style="">
-          <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button>
-         <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
-        
+         <img src="assets/images/voting.png" class="gif" style="">
+         <!--  <button  class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button> -->
+          <button data-href="https://github.com/JerecoPiso/voting_poll.git" class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
+     
+             
        </div>
        <div class="col-lg-6 pl-4 pt-3">
-         <p>  <b class="portfolio-fs">Real Time Chat Application</b> is an web app that allows you to communicate or interact <b>real-time</b> with other user/s.
+         <p>  <b class="portfolio-fs">Voting Poll</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.
           </p>
            <p class="functionalities">Features</p>
              <ul>
-                <li>Create Account</li>
-                <li>Login Account</li>
-                <li>View Other Online Users</li>
-                <li>Chat Other Online Users</li>
-                <li>Real Time Message Notification</li>
+                <li>Register as voter</li>
+                <li>Vote</li>
+                <li>Create admin</li>
+              
              </ul>
               <p class="technologies-used">Technologies Used</p>
              <ul>
-                <li>NodeJs</li>
+                <li>Codeigniter 3</li>
                 <li>VueJs</li>
                 <li>Axios</li>
                 <li>MySQL</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
+                <li>JQuery</li>
              </ul>
        </div>
      </div>
        <div class="row portfolio" >
        <div class="col-lg-6">
-         <img src="assets/images/codes2.jpg" class="gif">
-         <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button>
+         <img src="assets/images/exam.png" class="gif">
+       <!--   <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button> -->
          <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
        </div>
        <div class="col-lg-6 pl-4 pt-3">
-         <p>  <b class="portfolio-fs">Real Time Chat Application</b> is an web app that allows you to communicate or interact <b>real-time</b> with other user/s.
+         <p>  <b class="portfolio-fs">Online Examination System</b> is conducting a test online to measure the knowledge of the participants on a given topic. With online examination students can do the exam online, in their own time, with their own device, regardless of where they live. You only need a browser and an internet connection. 
           </p>
            <p class="functionalities">Features</p>
              <ul>
                 <li>Create Account</li>
                 <li>Login Account</li>
-                <li>View Other Online Users</li>
-                <li>Chat Other Online Users</li>
-                <li>Real Time Message Notification</li>
+                <li>Take exam w/ a limited time</li>
+                <li>View who already taken tha exam </li>
              </ul>
               <p class="technologies-used">Technologies Used</p>
              <ul>
-                <li>NodeJs</li>
-                <li>VueJs</li>
-                <li>Axios</li>
+                <li>PHP</li>
+                <li>JQuery</li>
                 <li>MySQL</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
