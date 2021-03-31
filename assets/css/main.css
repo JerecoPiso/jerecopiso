@@ -1,4 +1,4 @@
-@media(min-width: 468px) and (max-width: 768px){
+/*@media(min-width: 468px) and (max-width: 768px){*/
 	/*#bars{
 		display: block;
 		border: none;
@@ -69,8 +69,8 @@
 	}
 */
 	
-
-}
+/*
+}*/
 @media(min-width: 568px) and (max-width: 991px){
 	#bars{
 		display: block;
@@ -91,7 +91,6 @@
 		cursor: pointer;
 
 	}
-	.links{
 	.links{
 		display: none;
 		width: 100%;
