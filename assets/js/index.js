@@ -51,5 +51,7 @@ $(document).ready(function(){
  
 
  // $('.view-code').tooltip();
-
+$(window).resize(function(){
+   location.reload();
+});
 }); 
