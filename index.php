@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  	<title>JJ Online Portfolio</title>
+  	<title>JJ Online Portfoliosss</title>
 	  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
