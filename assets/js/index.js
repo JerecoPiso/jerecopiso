@@ -45,7 +45,7 @@ $(document).ready(function(){
       $('.view'+view).hide();
   });
 
-  $('button').click(function(){
+  $('.view-code').click(function(){
     window.location.href=$(this).data("href")
   })
  
