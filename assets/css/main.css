@@ -1,5 +1,5 @@
-@media(min-width: 468px) and (max-width: 667px){
-	#bars{
+@media(min-width: 468px) and (max-width: 768px){
+	/*#bars{
 		display: block;
 		border: none;
 		font-size: 180%;
@@ -28,7 +28,7 @@
 		overflow: hidden;
 	}
 	.links li{
-		/*float: left;*/
+		
 		width: 100%;
 
 		padding: 10px 5px;
@@ -67,8 +67,11 @@
 	    z-index: 1;
 	    font-size: 18px;
 	}
+*/
+	
+
 }
-@media(min-width: 668px) and (max-width: 991px){
+@media(min-width: 568px) and (max-width: 991px){
 	#bars{
 		display: none;
 	}
@@ -76,31 +79,35 @@
 		display: none;
 	}
 	.links{
+		display: none;
+		width: 100%;
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
+		background-color: rgb(255, 0, 102);
 		overflow: hidden;
 	}
 	.links li{
-		float: left;
+		
+		width: 100%;
+
+		padding: 10px 5px;
 	}
 	.links li a{
-		display: block;
+		
 		color: white;
 		text-align: center;
-		padding: 12px 12px;
+		padding: 12px 12px 12px 12px;
 		text-decoration: none;
 		font-size: 110%;
 		letter-spacing: 2px;
 		font-family: sans-serif;
 	}
-	.links li a:hover{
-		background-color: rgba(255,255,255,0.2);
+	.links li:hover{
+		background-color: rgba(255,255,255,0.5);
 		text-decoration: none;
-		border-radius: 0.5rem;
 		color: rgb(255,255,255);
 	}
-
 	
 	.topright {
 		
@@ -110,7 +117,82 @@
 	    font-size: 18px;
 	}
 
-}
+#bars{
+		display: block;
+		border: none;
+		font-size: 180%;
+		background-color: transparent;
+		color: rgb(255,255,255);
+		float: right;
+		margin-right: 5px;
+	}
+	#close{
+		display: block;
+		float: right;
+		background-color: transparent;
+		color: rgb(255,255,255);
+		font-size: 200%;
+		margin-right: 2.7%;
+		cursor: pointer;
+
+	}
+	.links{
+		display: none;
+		width: 100%;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: rgb(255, 0, 102);
+		overflow: hidden;
+	}
+	.links li{
+		
+		width: 100%;
+
+		padding: 10px 5px;
+	}
+	.links li a{
+		
+		color: white;
+		text-align: center;
+		padding: 12px 12px 12px 12px;
+		text-decoration: none;
+		font-size: 110%;
+		letter-spacing: 2px;
+		font-family: sans-serif;
+	}
+	.links li:hover{
+		background-color: rgba(255,255,255,0.5);
+		text-decoration: none;
+		color: rgb(255,255,255);
+	}
+	
+	.ml10{
+		margin-right: 10px;
+	}
+	.ml3{
+		margin-right: 3px;
+	}
+	.fontawesome-size{
+		font-size: 30px;
+	}
+	
+	.topright {
+		width: 100%;
+	    position: absolute;
+	    top: 1px;
+	    right: 1px;
+	    z-index: 1;
+	    font-size: 18px;
+	}
+	#profile{
+		/*margin-top: -90%*/
+		margin-top: -150%;
+		margin-right: 10%;
+		margin-left: 10%;
+
+	}
+}	
 @media(min-width: 992px) and (max-width: 1999px){
 	#bars{
 		display: none;
@@ -155,6 +237,12 @@
 	#projects, #skills{
 		display: none;
 	}
+	#profile{
+		margin-top: -400px;
+		margin-right: 10%;
+		margin-left: 10%;
+
+	}
 }
 @media(min-width: 1200px){
 	#bars{
@@ -196,6 +284,12 @@
 	    top: 8px;
 	    right: 16px;
 	    font-size: 18px;
+	}
+		#profile{
+		margin-top: -500px;
+		margin-right: 10%;
+		margin-left: 10%;
+
 	}
 	/*#projects, #skills{
 		display: none;
@@ -349,10 +443,7 @@ img {
 body{
 	background-color: rgb(242, 242, 242);
 }
-#profile{
-	margin-top: -500px;margin-right: 10%;margin-left: 10%;
 
-}
 #profile img{
 	display: block;
 	margin-right: 10%;
