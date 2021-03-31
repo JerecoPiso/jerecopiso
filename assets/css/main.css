@@ -72,21 +72,21 @@
 /*
 }*/
 @media(min-width: 568px) and (max-width: 991px){
-	#bars{
+		#bars{
 		display: block;
 		border: none;
-		font-size: 180%;
+		font-size: 100px;
 		background-color: transparent;
 		color: rgb(255,255,255);
 		float: right;
-		margin-right: 5px;
+		margin-right: 20px;
 	}
 	#close{
 		display: block;
 		float: right;
 		background-color: transparent;
 		color: rgb(255,255,255);
-		font-size: 200%;
+		font-size: 80px;
 		margin-right: 2.7%;
 		cursor: pointer;
 
@@ -112,7 +112,7 @@
 		text-align: center;
 		padding: 12px 12px 12px 12px;
 		text-decoration: none;
-		font-size: 110%;
+		font-size: 60px;
 		letter-spacing: 2px;
 		font-family: sans-serif;
 	}
@@ -121,13 +121,16 @@
 		text-decoration: none;
 		color: rgb(255,255,255);
 	}
-	
+	.links li a span{
+		display: none;
+	}
 	.ml10{
-		margin-right: 10px;
+		margin-right: 14px;
 	}
 	.ml3{
 		margin-right: 3px;
 	}
+
 	.fontawesome-size{
 		font-size: 30px;
 	}
@@ -142,7 +145,7 @@
 	}
 	#profile{
 		/*margin-top: -90%*/
-		margin-top: -100%;
+		margin-top: -150%;
 		margin-right: 10%;
 		margin-left: 10%;
 
