@@ -117,25 +117,6 @@
 	    font-size: 18px;
 	}
 
-#bars{
-		display: block;
-		border: none;
-		font-size: 180%;
-		background-color: transparent;
-		color: rgb(255,255,255);
-		float: right;
-		margin-right: 5px;
-	}
-	#close{
-		display: block;
-		float: right;
-		background-color: transparent;
-		color: rgb(255,255,255);
-		font-size: 200%;
-		margin-right: 2.7%;
-		cursor: pointer;
-
-	}
 	.links{
 		display: none;
 		width: 100%;
@@ -187,7 +168,7 @@
 	}
 	#profile{
 		/*margin-top: -90%*/
-		margin-top: -190%;
+		margin-top: -150%;
 		margin-right: 10%;
 		margin-left: 10%;
 
