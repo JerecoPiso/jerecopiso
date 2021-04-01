@@ -47,10 +47,10 @@ $(document).ready(function(){
  
 
  // $('.view-code').tooltip();
-  $(window).resize(function(){
+  // $(window).resize(function(){
 
-     location.reload();
-  });
+  //    location.reload();
+  // });
 
   $('[data-toggle="tooltip"]').tooltip();  
 }); 

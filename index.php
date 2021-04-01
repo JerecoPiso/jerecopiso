@@ -141,8 +141,9 @@
      
              
        </div>
-       <div class="col-lg-6 col-sm-12 project-desc pt-3">
-         <p class="about-portfolio">  <b class="portfolio-fs">Voting Poll</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.
+       <div class="col-lg-6 col-sm-12  pt-3">
+        <div class="project-desc">
+           <p class="about-portfolio">  <b class="portfolio-fs">Voting Poll</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.
           </p>
            <p class="functionalities">Features</p>
              <ul class="functions">
@@ -161,6 +162,8 @@
                 <li>CSS3</li>
                 <li>JQuery</li>
              </ul>
+        </div>
+        
        </div>
      </div>
        <div class="row portfolio" >
@@ -169,8 +172,9 @@
        <!--   <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button> -->
          <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
        </div>
-       <div class="col-lg-6 project-desc pt-3">
-         <p class="about-portfolio">  <b class="portfolio-fs">Online Examination System</b> is conducting a test online to measure the knowledge of the participants on a given topic. With online examination students can do the exam online, in their own time, with their own device, regardless of where they live. You only need a browser and an internet connection. 
+       <div class="col-lg-6  pt-3">
+        <div class="project-desc">
+           <p class="about-portfolio">  <b class="portfolio-fs">Online Examination System</b> is conducting a test online to measure the knowledge of the participants on a given topic. With online examination students can do the exam online, in their own time, with their own device, regardless of where they live. You only need a browser and an internet connection. 
           </p>
            <p class="functionalities">Features</p>
              <ul class="functions">
@@ -187,6 +191,8 @@
                 <li>HTML5</li>
                 <li>CSS3</li>
              </ul>
+        </div>
+        
        </div>
      </div>
 </div>
