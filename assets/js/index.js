@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
-  $(".div-container").css({"height": $(window).height(),"background-image": "url('assets/images/codes3.jpg')","background-repeat": "no-repeat", "background-size": "100% 500px"})
+  $(".div-container").css({"height": "750px", "background-image": "url('assets/images/codes3.jpg')","background-repeat": "no-repeat", "background-size": "100% 600px"})
   // "+$(window).height()+"px"
-
+// $(window).height(),
   $('#bars').click(function(){
     $('.links').fadeIn();
     $('#bars').hide()
@@ -12,10 +12,6 @@ $(document).ready(function(){
 
     $('#bars').fadeIn()
   })
-  $(this).scroll(function(){     
-    $('#skills').slideDown(1500);
-    $('#projects').fadeIn(4000);
-  });
 
    $("#skills-href").click(function(){
     $(".skills").show()
@@ -52,6 +48,9 @@ $(document).ready(function(){
 
  // $('.view-code').tooltip();
   $(window).resize(function(){
+
      location.reload();
   });
+
+  $('[data-toggle="tooltip"]').tooltip();  
 }); 

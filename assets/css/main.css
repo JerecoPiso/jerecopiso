@@ -75,14 +75,6 @@
 	    z-index: 1;
 	    font-size: 18px;
 	}
-	#profile{
-		/*margin-top: -90%*/
-		/*margin-top: 250px;*/
-		border: 1px solid red;
-		margin-right: 10%;
-		margin-left: 10%;
-		/*position: absolute;*/
-	}
 	
 
 }	
@@ -163,28 +155,9 @@
 	    z-index: 1;
 	    font-size: 18px;
 	}
-	#profile{
-		/*margin-top: -90%*/
-		margin-top: -150%;
-		
-		margin-right: 10%;
-		margin-left: 10%;
-		/*position: absolute;*/
-	}
+	
 	
 }	
-
-@media(max-height: 640px){
-	#profile{
-		/*margin-top: -90%*/
-		margin-top: -30%;
-		
-		margin-right: 10%;
-		margin-left: 10%;
-		/*position: absolute;*/
-	}
-}
-
 
 @media(min-width: 992px) and (max-width: 1999px){
 	#bars{
@@ -227,35 +200,28 @@
 	    right: 16px;
 	    font-size: 18px;
 	}
-	#projects, #skills{
-		display: none;
-	}
-	#profile{
-		
-	/*	position: absolute;*/
-		margin-top: -470px;
-		margin-right: 10%;
-		margin-left: 10%;
 
-	}
 	.portfolio{
 			border-top: 1px solid rgba(0,0,0,0.3);
 	}
-	/*#skills{
-		margin-top: 100px;
-	}*/
-}
-@media(min-width: 1200px){
-	#profile{
-		
-	/*	position: absolute;*/
-		margin-top: -470px;
-		margin-right: 10%;
-		margin-left: 10%;
+	.functionalities, .technologies-used{
+		font-weight: bold;
+		margin-top: 10px;
+		font-size: 25px;
+	}
+	.portfolio-fs{
+		font-size: 23px;
 
 	}
+	.about-portfolio{
+		font-size: 25px;
+	}
+	.technology li, .functions li{
+		font-size: 23px;
+	}
 }
-@media(min-width: 1400px){
+
+@media(min-width: 1200px){
 	#bars{
 		display: none;
 	}
@@ -296,20 +262,27 @@
 	    right: 16px;
 	    font-size: 18px;
 	}
-	#profile{
-		margin-top: -1200px;
-		margin-right: 10%;
-		/*position: absolute;*/
-		margin-left: 10%;
 
-	}
 	.portfolio{
 		border-top: 1px solid rgba(0,0,0,0.3);
 		padding: 2%;
 	}
-	/*#skills{
-		margin-top: -50%;
-	}*/
+	.functionalities, .technologies-used{
+		font-weight: bold;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	.portfolio-fs{
+		font-size: 23px;
+
+	}
+	.about-portfolio{
+		font-size: 20px;
+	}
+	.technology li, .functions li{
+		font-size: 17px;
+	}
+
 }
 
 .bg-black{
@@ -336,15 +309,6 @@
 
 }
 
-
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /*font-size: 18px;*/
-
-}
 img { 
     width: 100%;
     height: 700px;
@@ -352,16 +316,12 @@ img {
     
 }
 
-.skills{
-	/*height: auto;*/
+#skills{
+	
 	right: 0;
-	/*background-color: rgb(242, 242, 242);*/
-	/*background-color: rgb(255, 0, 102);*/
-	/*margin: 2% 0 0 0 ;*/
-	padding: 0% 8% 5% 8%;
-	/*background: linear-gradient(, #99ccff);*/
 
-/*	#99ccff*/
+	padding: 0% 8% 5% 8%;
+	
 }
 .card:hover{
 	border: 1px solid #669999;
@@ -388,7 +348,9 @@ img {
 	min-height: 320px;
 }
 
-
+#footer{
+	background-color: rgb(255, 0, 102)
+}
 .text-white{	
 	color: rgb(255,255,255);
 }
@@ -396,6 +358,7 @@ img {
 .me{
 	margin-left: 30%;
 	font-weight: bold;
+
 }
 .ml-10{
 	margin-left: 8%;
@@ -435,10 +398,7 @@ img {
 	padding: 1px 10px 2px 10px;
 	border-radius: 1rem;
 }
-.functionalities, .technologies-used{
-	font-weight: bold;
-	margin-top: 10px;
-}
+
 .skills-cat{
 	padding: 7px;
 	font-size: 25px;
@@ -452,11 +412,7 @@ img {
 .skill-logo{
 	height: 50px;
 }
-.main-ui{
-	height: auto;
-	position: absolute;
-	width: 100%;
-}
+
 body{
 	background-color: rgb(242, 242, 242);
 }
@@ -475,11 +431,16 @@ body{
 	background-color: rgb(255,255,255);
 }
 .name{
-	font-size: 30px;margin-bottom: -0.7%;
+	font-size: 30px;
+	margin-bottom: -0.7%;
 	margin-top: 9%;
+	
 }
 .my-skill{
-	font-weight: bold;border-bottom: 1px solid black;padding-bottom: 1%
+	font-weight: bold;
+	border-bottom: 1px solid rgb(255,255,255);
+	padding-bottom: 1%;
+	
 }
 .slogan{
 	background-color: rgb(255, 0, 102);
@@ -491,6 +452,7 @@ body{
 .about{
 	font-style: sans-serif;
 	font-size: 18px;
+	
 }
 .projects-portion{
 	background-color: rgb(255,255,255);
@@ -503,9 +465,7 @@ body{
 	margin-top: 3%;
 	border: 2px solid rgb(224, 224, 209);
 }
-.portfolio-fs{
-	font-size: 20px;
-}
+
 .view-code{
 	border: none;
 	margin-left: 5%;
@@ -529,6 +489,24 @@ body{
 	margin-top: 1%;
 	background-color: rgb(255, 0, 102)
 }
-#skills{
-	margin-top: 30px;
+.body-bgc{
+	background-color: rgb(242, 242, 250);
+}
+#profile{
+	margin-right: 10%;
+	position: absolute;
+	top: 280px;
+	margin-left: 10%;
+}
+#fbc{
+	font-size:35px;color: #4267B2
+}
+#twitc{
+	font-size:35px; color: #1DA1F2
+}
+#gitc{
+	font-size:35px; color: rgb(0,0,0);
+}
+#mailc{
+	font-size:35px; color: #DB4437;
 }

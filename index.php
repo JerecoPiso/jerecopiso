@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background-color: rgb(242, 242, 250);">
+<body class="body-bgc">
 <!-- upper part of the main page -->
 <div class="div-container">
-      <div class="main-ui">
-        <div class="topright">      
+   
+      <div class="topright">      
           <ul class="links">
             <span id="close">&times;</span>
             <li><a href="#"> <span class="fontawesome-size fa fa-home"></span> Home</a></li>
@@ -22,39 +22,33 @@
             <li><a href="resume.pdf">  <span class="fontawesome-size fa fa-file ml10"></span> CV</a></li>
           </ul>
           <button type="button" id="bars"><span class="fa fa-bars"></span></button>
-        </div>
-      </div> 
-
-</div>
+      </div>
 
       <!-- profile part of the main page -->
-  <div class="row " id="profile">
-     <div class="col-lg-1"></div>
-     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 bg-white bbl">
+      <div class="row " id="profile">
+       <div class="col-lg-1"></div>
+         <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 bg-white  bbl" >
+          <img src="assets/images/dp.jpg">
+         </div>
+          <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 bg-white bbr">
+            <p class="name" >I'm <b>Jereco James Piso</b></p>
+            <p class="my-skill">Freelance Web Developer</p>
+            <p class="about">I have 2 years experience in Web Development and I am passionate in learning other technologies to further hone my skills.</p>
+            <p class="about">When I'm not doing programming, I like playing online games.</p>
 
-           <img src="assets/images/dp.jpg">
+             <ul class="footer-links">
+                <p class="me">Contact Me</p>
+                <li class="ml-10"><a  href="#!"><i class="fa fa-facebook-square " id="fbc"></i></a></li>
+                <li><a  href="#!"><i class="fa fa-twitter-square" id="twitc"></i></a></li>
+                <li><a  href="#!"><i class="fa fa-github-square" id="gitc"></i></a></li>
+                <li><a  href="#!"> <i class="fa fa-envelope" id="mailc"></i> </a></li>
+             </ul>
+          </div>
+         <div class="col-lg-1"></div>
+       </div>
+</div>
 
-     </div>
-      <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 bg-white bbr">
-        <p class="name" style="">I'm <b>Jereco James Piso</b></p>
-        <p class="my-skill" style="">Freelance Web Developer</p>
-        <p class="about">I have 2 years experience in Web Development and I am passionate in learning other technologies to further hone my skills.</p>
-        <p class="about">When I'm not doing programming, I like playing online games.</p>
 
-         <ul class="footer-links">
-            <p class="me">Contact Me</p>
-            <li class="ml-10"><a  href="#!"><i class="fa fa-facebook-square" style="font-size:35px;color: #4267B2"></i></a></li>
-            <li><a  href="#!"><i class="fa fa-twitter-square" style="font-size:35px; color: #1DA1F2"></i></a></li>
-            <li><a  href="#!"><i class="fa fa-github-square" style="font-size:35px; color: rgb(0,0,0);"></i></a></li>
-            <li><a  href="#!"> <i class="fa fa-envelope" style="font-size:35px; color: #DB4437;"></i> </a></li>
-         </ul>
-      </div>
-    <div class="col-lg-1"></div>
-  </div>
-  
-
-<!-- class div-container end -->
-<div class="skills" >
   <div id="skills">
      <h2 class="experience text-center">Skills</h2>
      <div class="row pb-4">
@@ -134,7 +128,7 @@
        </div>  
      </div>
    </div>  <!-- id skills end -->
- </div> <!-- class skills end -->
+
 
   
 <div  id="projects" class="projects-portion" >
@@ -147,18 +141,18 @@
      
              
        </div>
-       <div class="col-lg-6 col-sm-12 project-desc">
-         <p>  <b class="portfolio-fs">Voting Poll</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.
+       <div class="col-lg-6 col-sm-12 project-desc pt-3">
+         <p class="about-portfolio">  <b class="portfolio-fs">Voting Poll</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.
           </p>
            <p class="functionalities">Features</p>
-             <ul>
+             <ul class="functions">
                 <li>Register as voter</li>
                 <li>Vote</li>
                 <li>Create admin</li>
               
              </ul>
               <p class="technologies-used">Technologies Used</p>
-             <ul>
+             <ul class="technology">
                 <li>Codeigniter 3</li>
                 <li>VueJs</li>
                 <li>Axios</li>
@@ -176,17 +170,17 @@
          <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
        </div>
        <div class="col-lg-6 project-desc pt-3">
-         <p>  <b class="portfolio-fs">Online Examination System</b> is conducting a test online to measure the knowledge of the participants on a given topic. With online examination students can do the exam online, in their own time, with their own device, regardless of where they live. You only need a browser and an internet connection. 
+         <p class="about-portfolio">  <b class="portfolio-fs">Online Examination System</b> is conducting a test online to measure the knowledge of the participants on a given topic. With online examination students can do the exam online, in their own time, with their own device, regardless of where they live. You only need a browser and an internet connection. 
           </p>
            <p class="functionalities">Features</p>
-             <ul>
+             <ul class="functions">
                 <li>Create Account</li>
                 <li>Login Account</li>
                 <li>Take exam w/ a limited time</li>
                 <li>View who already taken tha exam </li>
              </ul>
               <p class="technologies-used">Technologies Used</p>
-             <ul>
+             <ul class="technology">
                 <li>PHP</li>
                 <li>JQuery</li>
                 <li>MySQL</li>
@@ -199,23 +193,17 @@
 
 
 
-<footer id="footer" style="background-color: rgb(255, 0, 102)">
+<footer id="footer" style="">
     <div class="">
-      <div class="text-white text-center p-4" style="border: 1px solid  #99ccff;">
+      <div class="text-white text-center p-4">
           © 2021. Jereco James Piso.<br>
           All Rights Reserved.
       </div>
     </div>
 </footer>
+
 <script type="text/javascript" src="assets/js/jquery.js"></script>   
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/index.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-});
-
-</script>
 </body>
 </html>
