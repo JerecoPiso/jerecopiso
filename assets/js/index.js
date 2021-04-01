@@ -41,16 +41,11 @@ $(document).ready(function(){
       $('.view'+view).hide();
   });
 
-  // $('button').click(function(){
-  //   window.location.href=$(this).data("href")
-  // })
+   $('.view-code').click(function(){
+    window.location.href=$(this).data("href")
+
+  })
  
-
- // $('.view-code').tooltip();
-  // $(window).resize(function(){
-
-  //    location.reload();
-  // });
 
   $('[data-toggle="tooltip"]').tooltip();  
 }); 
