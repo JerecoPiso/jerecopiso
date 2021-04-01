@@ -170,7 +170,7 @@
        <div class="col-lg-6">
          <img src="assets/images/exam.png" class="gif">
        <!--   <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button> -->
-         <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
+         <button data-href="https://github.com/JerecoPiso/exam" class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
        </div>
        <div class="col-lg-6  pt-3">
         <div class="project-desc">
