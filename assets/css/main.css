@@ -75,8 +75,21 @@
 	    z-index: 1;
 	    font-size: 18px;
 	}
-	
+	.functionalities, .technologies-used{
+		font-weight: bold;
+		margin-top: 10px;
+		font-size: 35px;
+	}
+	.portfolio-fs{
+		font-size: 25px;
 
+	}
+	.about-portfolio{
+		font-size: 35px;
+	}
+	.technology li, .functions li{
+		font-size: 25px;
+	}
 }	
 @media(min-width: 768px) and (max-width: 991px){
 
@@ -154,6 +167,21 @@
 	    right: 1px;
 	    z-index: 1;
 	    font-size: 18px;
+	}
+	.functionalities, .technologies-used{
+		font-weight: bold;
+		margin-top: 10px;
+		font-size: 35px;
+	}
+	.portfolio-fs{
+		font-size: 25px;
+
+	}
+	.about-portfolio{
+		font-size: 35px;
+	}
+	.technology li, .functions li{
+		font-size: 25px;
 	}
 	
 	
