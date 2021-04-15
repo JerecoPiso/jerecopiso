@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Jereco James Piso</title>
+    <title>JJ Online Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
@@ -17,14 +17,15 @@
           <ul class="links">
             <span id="close">&times;</span>
             <li><a href="#"> <span class="fontawesome-size fa fa-home"></span> Home</a></li>
-            <li><a href="javascript:void(0)" id="skills-href"> <span class="fontawesome-size fa fa-id-badge ml10"></span> Skills</a></li>
-            <li><a href="javascript:void(0)" id="projects-href">  <span class="fontawesome-size fa fa-folder ml3"></span> Projects</a></li>
-            <li><a href="resume.pdf">  <span class="fontawesome-size fa fa-file ml10"></span> CV</a></li>
+            <li><a href="javascript:void(0)" id="skills-href"> <span class="fontawesome-size fa fa-id-badge" ></span> Skills</a></li>
+            <li><a href="javascript:void(0)" id="projects-href">  <span class="fontawesome-size fa fa-folder"></span> Projects</a></li>
+            <li><a href="resume.pdf">  <span class="fontawesome-size fa fa-file"></span> CV</a></li>
           </ul>
           <button type="button" id="bars"><span class="fa fa-bars"></span></button>
       </div>
 
       <!-- profile part of the main page -->
+        <!-- profile part of the main page -->
       <div class="row " id="profile">
        <div class="col-lg-1"></div>
          <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 bg-white  bbl" >
@@ -36,12 +37,12 @@
             <p class="about">I have 2 years experience in Web Development and I am passionate in learning other technologies to further hone my skills.</p>
             <p class="about">When I'm not doing programming, I like playing online games.</p>
 
-             <ul class="footer-links">
+             <ul class="profile-links">
                 <p class="me">Contact Me</p>
                 <li class="ml-10"><a  href="#!"><i class="fa fa-facebook-square " id="fbc"></i></a></li>
                 <li><a  href="#!"><i class="fa fa-twitter-square" id="twitc"></i></a></li>
                 <li><a  href="#!"><i class="fa fa-github-square" id="gitc"></i></a></li>
-                <li><a  href="#!"> <i class="fa fa-envelope" id="mailc"></i> </a></li>
+                <li><a  href="#!"><i class="fa fa-envelope" id="mailc"></i> </a></li>
              </ul>
           </div>
          <div class="col-lg-1"></div>
@@ -170,7 +171,7 @@
        <div class="col-lg-6">
          <img src="assets/images/exam.png" class="gif">
        <!--   <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button> -->
-         <button data-href="https://github.com/JerecoPiso/exam" class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
+         <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
        </div>
        <div class="col-lg-6  pt-3">
         <div class="project-desc">

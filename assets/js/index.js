@@ -4,7 +4,7 @@ $(document).ready(function(){
   // "+$(window).height()+"px"
 // $(window).height(),
   $('#bars').click(function(){
-    $('.links').fadeIn();
+    $('.links').slideDown();
     $('#bars').hide()
   })
   $('#close').click(function(){

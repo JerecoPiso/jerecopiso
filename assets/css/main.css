@@ -44,7 +44,7 @@
 		text-align: center;
 		padding: 12px 12px 12px 12px;
 		text-decoration: none;
-		font-size: 60px;
+		font-size: 20px;
 		letter-spacing: 2px;
 		font-family: sans-serif;
 	}
@@ -98,6 +98,9 @@
 		margin-left: 50px;
 		
 
+	}
+	.links li a span{
+		width: 100px;
 	}
 	#bars{
 		display: block;
@@ -212,7 +215,7 @@
 		text-align: center;
 		padding: 12px 12px;
 		text-decoration: none;
-		font-size: 110%;
+		font-size: 130%;
 		letter-spacing: 2px;
 		font-family: sans-serif;
 	}
@@ -274,7 +277,7 @@
 		text-align: center;
 		padding: 12px 12px;
 		text-decoration: none;
-		font-size: 110%;
+		font-size: 130%;
 		letter-spacing: 2px;
 		font-family: sans-serif;
 	}
@@ -376,7 +379,7 @@ img {
 	font-weight: bold;
 }
 .card-min-height{
-	min-height: 320px;
+	min-height: 400px;
 }
 
 #footer{
@@ -392,20 +395,20 @@ img {
 
 }
 .ml-10{
-	margin-left: 8%;
+	margin-left: 10%;
 }
-.footer-links{
+.profile-links{
 	list-style-type: none;
 	margin-top: 5%;
 }
-.footer-links li{
+.profile-links li{
 	text-decoration: none;
 	padding: 1%;
 	margin-right: 7%;
 	float: left;
 
 }
-.footer-links li a{
+.profile-links li a{
 	color: rgb(255,255,255);
 }
 /*.footer-links li a:hover{
@@ -437,11 +440,11 @@ img {
 	
 }
 .skill-cat-logo{
-	height: 100px;
+	height: 130px;
 }
 
 .skill-logo{
-	height: 50px;
+	height: 70px;
 }
 
 body{
@@ -500,8 +503,8 @@ body{
 .view-code{
 	border: none;
 	margin-left: 5%;
-	width: 70px;
-	padding: 1.2%;
+	width: 100px;
+	padding: 10px;
 	color: rgb(255,255,255);
 	font-size: 18px;
 	border-radius: 0.5rem;
