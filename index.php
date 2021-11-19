@@ -1,216 +1,233 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
-    <title>JJ Online Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+
 </head>
-
-<body class="body-bgc">
-<!-- upper part of the main page -->
-<div class="div-container">
-   
-      <div class="topright">      
-          <ul class="links">
-            <span id="close">&times;</span>
-            <li><a href="#"> <span class="fontawesome-size fa fa-home"></span> Home</a></li>
-            <li><a href="javascript:void(0)" id="skills-href"> <span class="fontawesome-size fa fa-id-badge" ></span> Skills</a></li>
-            <li><a href="javascript:void(0)" id="projects-href">  <span class="fontawesome-size fa fa-folder"></span> Projects</a></li>
-            <li><a href="resume.pdf">  <span class="fontawesome-size fa fa-file"></span> CV</a></li>
-          </ul>
-          <button type="button" id="bars"><span class="fa fa-bars"></span></button>
-      </div>
-
-      <!-- profile part of the main page -->
-        <!-- profile part of the main page -->
-      <div class="row " id="profile">
-       <div class="col-lg-1"></div>
-         <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 bg-white  bbl" >
-          <img src="assets/images/dp.jpg">
-         </div>
-          <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 bg-white bbr">
-            <p class="name" >I'm <b>Jereco James Piso</b></p>
-            <p class="my-skill">Freelance Web Developer</p>
-            <p class="about">I have 2 years experience in Web Development and I am passionate in learning other technologies to further hone my skills.</p>
-            <p class="about">When I'm not doing programming, I like playing online games.</p>
-
-             <ul class="profile-links">
-                <p class="me">Contact Me</p>
-                <li class="ml-10"><a  href="#!"><i class="fa fa-facebook-square " id="fbc"></i></a></li>
-                <li><a  href="#!"><i class="fa fa-twitter-square" id="twitc"></i></a></li>
-                <li><a  href="#!"><i class="fa fa-github-square" id="gitc"></i></a></li>
-                <li><a  href="#!"><i class="fa fa-envelope" id="mailc"></i> </a></li>
-             </ul>
-          </div>
-         <div class="col-lg-1"></div>
-       </div>
-</div>
-
-
-  <div id="skills">
-     <h2 class="experience text-center">Skills</h2>
-     <div class="row pb-4">
-      <div class="col-lg-4 col-md-12 col-sm-12 mt-2">
-         <div class="card card-min-height"  >
-               <img src="assets/images/front.png" class="card-img-top skill-cat-logo" alt="..." >
+<body>
+    <div class="main-page" id="main-page">
+        <div class="content">
+           <div class="logo">
+               <img src="assets/images/hehe.png" alt="" srcset="">
+           </div>
+            <div id="top-nav">
+                <button type="button" id="bars"> <span class="fa fa-bars"></span> </button>
+                <ul id="nav">
+                    
+                    <li><a href="javascript:void(0)" onclick="toAboutme()">About Me</a></li>
+                    <li><a href="javascript:void(0)" onclick="toSkills()">Skills</a></li>
+                    <li><a href="javascript:void(0)" onclick="toPortfolio()">Portfolio</a></li>
+                    <li><a href="">Home</a></li>
+                  
+                </ul>
                 
-                <div class="card-body text-center">
-                <!--  <h5 class="text-center skills-cat">Front-End</h5> -->
-                  <div class="row">
-                    <div class="col-lg-6 col-sm-4  mt-2">
-                       <img src="assets/images/html5.png" class="skill-logo">
+            </div>
+    
+            <div class="profile">
+                
+                <img src="assets/images/dp.jpg" alt="dp.jpg" class="dp">
+                <p class="name">Hi,  I'm <strong>Jereco James Piso</strong> </p>
+                <p class="expertise">| Freelance Web Developer |</p>
+                <button type="button" class="hire-me">Hire Me</button>
+              
+            </div>
+        </div>
+      
+    </div>
+    <!-- portfolios -->
+    <div class="portfolios" id="portfolio">
+        <p>Portfolio</p>
+        <div class="flex" >
+            <div class="flex-item">
+                <div class="card mr-1 ml-1">
+                    <img src="assets/images/codeunity.png" alt="">
+                    <div class="card-content">
+                        <p class="app-name">CodeUnity</p>
+                        <p class="app-desc"> <b>Codeunity</b>  is a helpful platform for developers it has a functionalities like in stackoverflow where the user can post their problem etc.</p>
+                        <p class="view-app">  <a href="" >View Website</a></p>
+                      
                     </div>
-                    <div class="col-lg-6  col-sm-4  mt-2">
-                       <img src="assets/images/css3.png" class="skill-logo">
-                    </div>
-                    <div class="col-lg-6  col-sm-4 mt-2">
-                       <img src="assets/images/bootstrap4.png" class="skill-logo">
-                    </div>
-                    <div class="col-lg-6  col-sm-4 mt-2">
-                       <img src="assets/images/mater.png" class="skill-logo">
-                    </div>
-                     <div class="col-lg-6  col-sm-4 mt-2">
-                       <img src="assets/images/vue.png" class="skill-logo">
-                    </div>
-                     <div class="col-lg-6  col-sm-4 mt-2">
-                       <img src="assets/images/jquery.png" class="skill-logo">
-                    </div>
-                  </div>               
                 </div>
             </div>
-      </div>
-      <div class="col-lg-4 col-md-12 col-sm-12 mt-2">
-          <div class="card card-min-height" >
-            <img src="assets/images/back.jpg" class="card-img-top skill-cat-logo" alt="..." >
-              <div class="card-body text-center">
-                 <div class="row">
-                  <div class="col-lg-6 col-sm-4">
-                     <img src="assets/images/php.png" class="skill-logo">
-                  </div>
-                  <div class="col-lg-6 col-sm-4">
-                     <img src="assets/images/codeigniter.png" class="skill-logo">
-                  </div>
-                   <div class="col-lg-6 col-sm-4">
-                     <img src="assets/images/node.jpg" class="skill-logo">
-                  </div>
-                   <div class="col-lg-6 col-sm-4">
-                     <img src="assets/images/django.jpg" class="skill-logo">
-                  </div>
-                   <div class="col-lg-6 col-sm-4 mt-2">
-                     <img src="assets/images/laravel.jpg" class="skill-logo">
-                  </div>               
-                </div>                             
-              </div>
-          </div>
-      </div>
-     <div class="col-lg-4 col-md-12 col-sm-12 mt-2">
-      <div class="card card-min-height" >
-           <img src="assets/images/db.png" class="card-img-top skill-cat-logo" alt="..." style="">
-             <!--  <h5 class="text-center skills-cat">Databases</h5> -->
-              <div class="card-body text-center" >
-                 <div class="row">
-                  <div class="col-lg-6 col-sm-4">
-                     <img src="assets/images/mysql.png" class="skill-logo">
-                  </div>
-                  <div class="col-lg-6 col-sm-4">
-                     <img src="assets/images/mongo.png" class="skill-logo">
-                  </div>
-                   <div class="col-lg-6 col-sm-4">
-                     <img src="assets/images/sqlite.png" class="skill-logo">
-                  </div>
-                 
-                
-                </div>            
-              </div>
-          </div>
-       </div>  
-     </div>
-   </div>  <!-- id skills end -->
-
-
-  
-<div  id="projects" class="projects-portion" >
-     <h2 class="experience text-center">Portfolio</h2>
-     <div class="row portfolio" style="">
-       <div class="col-lg-6 col-sm-12">
-         <img src="assets/images/voting.png" class="gif" style="">
-         <!--  <button  class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button> -->
-          <button data-href="https://github.com/JerecoPiso/voting_poll.git" class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
-     
-             
-       </div>
-       <div class="col-lg-6 col-sm-12  pt-3">
-        <div class="project-desc">
-           <p class="about-portfolio">  <b class="portfolio-fs">Voting Poll</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.
-          </p>
-           <p class="functionalities">Features</p>
-             <ul class="functions">
-                <li>Register as voter</li>
-                <li>Vote</li>
-                <li>Create admin</li>
-              
-             </ul>
-              <p class="technologies-used">Technologies Used</p>
-             <ul class="technology">
-                <li>Codeigniter 3</li>
-                <li>VueJs</li>
-                <li>Axios</li>
-                <li>MySQL</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JQuery</li>
-             </ul>
+            <div class="flex-item">
+                <div class="card mr-1 ml-1">
+                    <img src="assets/images/front-end.jpg" alt="">
+                    <div class="card-content">
+                        <p class="app-name">Real Time Chat Application</p>
+                        <p class="app-desc"> <b>Real Time Chat Application</b>  is an web based app that can make the user communicate/chat in real time.</p>
+                        <p class="view-app">  <a href="" >View Code</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item" >
+                <div class="card mr-1 ml-1">
+                    <img src="assets/images/voting.png" alt="">
+                    <div class="card-content">
+                        <p class="app-name">Voting Poll System</p>
+                        <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p>
+                        <p class="view-app">  <a href="" >View Code</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item" >
+                <div class="card mr-1 ml-1">
+                    <img src="assets/images/ltipc.png" alt="">
+                    <div class="card-content">
+                        <p class="app-name">LTIPC Management System</p>
+                        <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p>
+                        <p class="view-app">  <a href="" >View Code</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item" >
+                <div class="card mr-1 ml-1">
+                    <img src="assets/images/front-end.jpg" alt="">
+                    <div class="card-content">
+                        <p class="app-name">Voting Poll System</p>
+                        <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p>
+                        <p class="view-app">  <a href="" >View Code</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item" >
+                <div class="card mr-1 ml-1">
+                    <img src="assets/images/front-end.jpg" alt="">
+                    <div class="card-content">
+                        <p class="app-name">Voting Poll System</p>
+                        <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p>
+                        <p class="view-app">  <a href="" >View Code</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-       </div>
-     </div>
-       <div class="row portfolio" >
-       <div class="col-lg-6">
-         <img src="assets/images/exam.png" class="gif">
-       <!--   <button class="visit-site" data-toggle="tooltip" data-placement="top" title="Visit Site"> <span class="fa fa-search"></span></button> -->
-         <button class="view-code" data-toggle="tooltip" data-placement="top" title="View Code"> <span class="fa fa-eye"></span></button>
-       </div>
-       <div class="col-lg-6  pt-3">
-        <div class="project-desc">
-           <p class="about-portfolio">  <b class="portfolio-fs">Online Examination System</b> is conducting a test online to measure the knowledge of the participants on a given topic. With online examination students can do the exam online, in their own time, with their own device, regardless of where they live. You only need a browser and an internet connection. 
-          </p>
-           <p class="functionalities">Features</p>
-             <ul class="functions">
-                <li>Create Account</li>
-                <li>Login Account</li>
-                <li>Take exam w/ a limited time</li>
-                <li>View who already taken tha exam </li>
-             </ul>
-              <p class="technologies-used">Technologies Used</p>
-             <ul class="technology">
-                <li>PHP</li>
-                <li>JQuery</li>
-                <li>MySQL</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-             </ul>
-        </div>
-        
-       </div>
-     </div>
-</div>
-
-
-
-<footer id="footer" style="">
-    <div class="">
-      <div class="text-white text-center p-4">
-          © 2021. Jereco James Piso.<br>
-          All Rights Reserved.
-      </div>
+       
     </div>
-</footer>
 
-<script type="text/javascript" src="assets/js/jquery.js"></script>   
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/index.js"></script>
+    <!-- skills -->
+    <div class="skills" id="skills">
+        <p>SKILLS</p>
+        <div class="skills-category">
+           
+            <div class="category">
+                <p class="categories">Frontend</p>
+                <div class="languages">
+                    <img src="assets/images/html5.png" alt="">
+                    <img src="assets/images/css3.png" alt="">
+                    <img src="assets/images/bootstrap4.png" alt="">
+                    <img src="assets/images/jquery.png" alt="">
+                    <img src="assets/images/materialize.png" alt="">
+                    <img src="assets/images/vue.png" alt="">
+                </div>
+            </div>
+            <div class="category">
+                <p class="categories">Backend</p>
+                <div class="languages">
+                    <img src="assets/images/laravel.jpg" alt="">
+                    <img src="assets/images/django.jpg" alt="">
+                    <img src="assets/images/php.png" alt="">
+                    <img src="assets/images/codeigniter.png" alt="">
+                    <img src="assets/images/sqlite.png" alt="">
+                    <img src="assets/images/mysql.png" alt="">
+                    <img src="assets/images/node.jpg" alt="">
+                    <img src="assets/images/postgresql.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about me -->
+    <div class="about-me" id="aboutme">
+        <p>ABOUT ME</p>
+        <div class="bio">
+            <div class="aboutme-dp">
+                <img src="assets/images/dp.jpg" alt="">
+            </div>
+            <div class="bios">
+                <p class="my-name">I'm Jereco James Piso </p>
+                <p class="extra-info">I have 3 years experienced in web development and still continuing learning more and new technologies to hone my skills in web development.</p>
+                <ul>
+                    <li><span class="fa fa-map-marker"></span>Brgy. Cabangcalan Sta. Fe Leyte Philippines</li>
+                    <li><span class="fa fa-phone"></span>(+63) 9518227186</li>
+                    <li><span class="fa fa-envelope"></span>jamesjerecopiso@gmail.com</li>
+   
+                </ul>
+                <p class="view-resume"><a href="resume.pdf" >View Resume</a></p>
+
+            </div>
+        </div>
+    </div>
+    <button type="button" id="moveToTop" onclick="toTop()">	&uarr; </button>
+    <!-- footer -->
+    <footer>
+        All Rights Reserved <span id="year"></span>
+    </footer>
+<script>
+    // put year on the footer
+    var date = new Date()
+    document.getElementById('year').innerHTML = date.getFullYear()
+
+    function moveToTop() {
+        var toTopBtn = document.getElementById('moveToTop')
+        if(document.body.scrollTop > page.offsetHeight || document.documentElement.scrollTop > page.offsetHeight){
+            toTopBtn.style.display = 'block'
+        }else{
+            toTopBtn.style.display = 'none'
+        }
+    }
+  
+    window.onscroll = function(){
+            moveToTop()
+    }
+ 
+    var showBtn = document.getElementById('bars')
+    var status = 'close'
+    showBtn.addEventListener('click', function show(){
+            if(status == "close"){
+                status = 'open'
+                document.getElementById('nav').style.top = '0'
+            }else{
+                status = 'close'
+                document.getElementById('nav').style.top = '-100%'
+            }
+
+            document.getElementById('nav').style.transition = '0.5s'
+    })
+    var page = document.getElementById('main-page')
+    var portfolio = document.getElementById('portfolio')
+    var skills = document.getElementById("skills")
+    
+    function toTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    }
+    function toPortfolio(){
+      window.scrollTo({
+          top: page.offsetHeight,
+          behavior: 'smooth'
+          
+      })
+   }
+   function toSkills(){
+      window.scrollTo({
+          top: page.offsetHeight + portfolio.offsetHeight,
+          behavior: 'smooth'
+          
+      })
+   }
+   function  toAboutme() {
+    window.scrollTo({
+        top: page.offsetHeight + portfolio.offsetHeight + skills.offsetHeight,
+        behavior: 'smooth'
+    })
+   }
+</script>
 </body>
 </html>
