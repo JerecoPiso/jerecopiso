@@ -50,19 +50,19 @@
                     <img src="assets/images/codeunity.png" alt="">
                     <div class="card-content">
                         <p class="app-name">CodeUnity</p>
-                        <p class="app-desc"> <b>Codeunity</b>  is a helpful platform for developers it has a functionalities like in stackoverflow where the user can post their problem etc.</p>
-                        <p class="view-app">  <a href="" >View Website</a></p>
+                        <!-- <p class="app-desc"> <b>Codeunity</b>  is a helpful platform for developers it has a functionalities like in stackoverflow where the user can post their problem etc.</p> -->
+                        <p class="view-app">  <a href="https://codeunity.herokuapp.com/" > <span class="fa fa-eye"></span> View Website</a></p>
                       
                     </div>
                 </div>
             </div>
             <div class="flex-item">
                 <div class="card mr-1 ml-1">
-                    <img src="assets/images/front-end.jpg" alt="">
+                    <img src="assets/images/chatapp.png" alt="">
                     <div class="card-content">
                         <p class="app-name">Real Time Chat Application</p>
-                        <p class="app-desc"> <b>Real Time Chat Application</b>  is an web based app that can make the user communicate/chat in real time.</p>
-                        <p class="view-app">  <a href="" >View Code</a></p>
+                        <!-- <p class="app-desc"> <b>Real Time Chat Application</b>  is an web based app that can make the user communicate/chat in real time.</p> -->
+                        <p class="view-app">  <a href="https://github.com/JerecoPiso/chat_app" > <span class="fa fa-eye"></span> View Code</a></p>
                     </div>
                 </div>
             </div>
@@ -71,8 +71,8 @@
                     <img src="assets/images/voting.png" alt="">
                     <div class="card-content">
                         <p class="app-name">Voting Poll System</p>
-                        <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p>
-                        <p class="view-app">  <a href="" >View Code</a></p>
+                        <!-- <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p> -->
+                        <p class="view-app">  <a href="https://github.com/JerecoPiso/voting_poll" ><span class="fa fa-eye"></span> View Code</a></p>
                     </div>
                 </div>
             </div>
@@ -80,29 +80,30 @@
                 <div class="card mr-1 ml-1">
                     <img src="assets/images/ltipc.png" alt="">
                     <div class="card-content">
-                        <p class="app-name">LTIPC Management System</p>
-                        <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p>
-                        <p class="view-app">  <a href="" >View Code</a></p>
+                        <p class="app-name">LTIPC Management System  </p>
+                        <!-- <p class="app-desc"><b>LTIPC Management System</b> is now being used in the main office of Leyte Tourism Investment & Promotion Center.</p> -->
+                        <p class="view-app">  <a href="" > <span class="fa fa-lock"></span> Private</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-item" >
+                <div class="card mr-1 ml-1">
+                    <img src="assets/images/dts.png" alt="">
+                    <div class="card-content">
+                        <p class="app-name">EVSU-Tanauan DTS</p>
+                        <!-- <p class="app-desc"><b>EVSU-Tanauan Document Tracking System</b> .</p> -->
+                        <p class="view-app">  <a href="" > <span class="fa fa-lock"></span> Private</a></p>
                     </div>
                 </div>
             </div>
             <div class="flex-item" >
                 <div class="card mr-1 ml-1">
-                    <img src="assets/images/front-end.jpg" alt="">
+                    <img src="assets/images/exam.png" alt="">
                     <div class="card-content">
-                        <p class="app-name">Voting Poll System</p>
-                        <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p>
-                        <p class="view-app">  <a href="" >View Code</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-item" >
-                <div class="card mr-1 ml-1">
-                    <img src="assets/images/front-end.jpg" alt="">
-                    <div class="card-content">
-                        <p class="app-name">Voting Poll System</p>
-                        <p class="app-desc"><b>Voting Poll System</b> is an web app that allows you to create multiple voting poll that can be used in different types of voting.</p>
-                        <p class="view-app">  <a href="" >View Code</a></p>
+                        <p class="app-name">Examination System</p>
+                        <!-- <p class="app-desc"><b>EVSU-Tanauan Document Tracking System</b> .</p> -->
+                        <p class="view-app">  <a href="https://github.com/JerecoPiso/exam" > <span class="fa fa-eye"></span> View Code</a></p>
                     </div>
                 </div>
             </div>
